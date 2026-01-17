@@ -1,0 +1,20 @@
+# ImageGen1 Configuration Example
+# Copy this file to config.yaml and modify as needed
+
+# Directory where models are stored
+models_dir: "models"
+
+# Maximum image size for generated images
+max_image_size: 1024
+
+# Default text model for text generation
+default_text_model: "llama2"
+
+# Default image model for image generation
+default_image_model: "stable-diffusion-xl"
+
+# Audio sample rate for audio processing
+audio_sample_rate: 22050
+
+# MCP (Model Context Protocol) server port
+mcp_port: 8000
