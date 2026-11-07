@@ -1,0 +1,24 @@
+# Core ML libraries with CUDA support
+torch>=2.1.0
+torchvision>=0.16.0
+diffusers>=0.27.0
+transformers>=4.40.0
+accelerate>=0.29.0
+safetensors>=0.4.0
+
+# Image processing
+Pillow>=10.3.0
+opencv-python>=4.9.0
+
+# Audio processing
+librosa>=0.10.1
+soundfile>=0.12.1
+pydub>=0.25.1
+
+# Model management
+huggingface-hub>=0.22.0
+requests>=2.31.0
+
+# Utilities
+tqdm>=4.66.0
+psutil>=6.0.0
