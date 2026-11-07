@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(superpowers:writing-plans)",
+      "Bash(python3:*)",
+      "Bash(node:*)",
+      "Bash(npm --version:*)",
+      "Bash(git clone:*)",
+      "Skill(superpowers:subagent-driven-development)",
+      "Bash(python -m pytest:*)",
+      "Bash(PYTHONPATH=/home/eileen/projects/imagegen1/src python3:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)",
+      "Bash(PYTHONPATH=/home/eileen/projects/imagegen1 python3:*)",
+      "Bash(pip3 install:*)",
+      "Bash(apt list:*)",
+      "Bash(sudo apt:*)",
+      "Bash(curl:*)",
+      "Bash(pip install:*)",
+      "Bash(apt update:*)",
+      "Bash(apt install:*)",
+      "Bash(uv:*)",
+      "Bash(source:*)",
+      "Bash(chmod:*)",
+      "Bash(./scripts/install-cuda-deps.sh:*)",
+      "Bash(UV_HTTP_TIMEOUT=300 uv pip install:*)"
+    ]
+  }
+}
